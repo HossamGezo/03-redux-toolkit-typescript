@@ -1,5 +1,17 @@
+// - - - - - - - - - Local Files
+// *** Cake View Component
+import CakeView from "./features/cake/cakeView";
+// *** Icecream View Component
+import IcecreamView from "./features/icecream/icecreamView";
+
+// - - - - - - - - - App Compoennt
 function App() {
-  return <h1>Redux ToolKit </h1>;
+  return (
+    <div className="custom-container flex flex-col gap-10">
+      <CakeView />
+      <IcecreamView />
+    </div>
+  );
 }
 
 export default App;
