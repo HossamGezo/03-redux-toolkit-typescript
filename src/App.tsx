@@ -1,8 +1,8 @@
 // - - - - - - - - - Local Files
 // *** Cake View Component
-import CakeView from "./features/cake/CakeViewTemp";
+import CakeView from "./features/cake/CakeView";
 // *** Icecream View Component
-import IcecreamView from "./features/icecream/IcecreamViewTemp";
+import IcecreamView from "./features/icecream/IcecreamView";
 // *** User View Component
 import UserView from "./features/user/UserView";
 
