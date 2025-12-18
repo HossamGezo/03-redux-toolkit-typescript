@@ -1,26 +1,26 @@
 # ⚛️ Redux Toolkit + TypeScript Mastery
 
+## 📚 Redux Mastery Series Navigation
+
+| Part | Topic | Tech Stack | Link |
+| :---: | :--- | :--- | :---: |
+| **01** | **Redux Core** | Vanilla JS, Store, Actions | [View Repo](https://github.com/HossamGezo/01-redux-vanilla-core) |
+| **02** | **React Redux** | React, Connect, Hooks, Thunk | [View Repo](https://github.com/HossamGezo/02-react-redux-standard) |
+| **03** | **Redux Toolkit** | RTK, TypeScript, createAsyncThunk | 👉 **You are here** |
+
+---
+
 > **Part 3** (The Finale) of the Redux Mastery Series.
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/47fcdfe7-3d93-49c9-83d6-0bec01c6b427/deploy-status)](https://app.netlify.com/projects/redux-toolkit-ts-demo/deploys)
-&nbsp;
-[![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen)](https://redux-toolkit-ts-demo.netlify.app/)
+[![Live Demo](https://img.shields.io/badge/Live_Demo-Visit_App-2ea44f?style=flat&logo=netlify)](https://redux-toolkit-ts-demo.netlify.app/)
 
 This repository represents the **modern industry standard** for state management. It utilizes **Redux Toolkit (RTK)** within a **React** application, fully typed with **TypeScript**, and styled using **Tailwind CSS**.
 
----
+<br />
 
-## 📸 Project Preview
-
-![App Interface](./public/Redux_Toolkit_App.png)
-_(A fully responsive dashboard managing Cakes, Ice Creams, and Async Users)_
-
----
-
-## 🔗 Live Demo
-
-Click here to try the application:  
-👉 **[https://redux-toolkit-ts-demo.netlify.app/](https://redux-toolkit-ts-demo.netlify.app/)**
+![Redux Toolkit App Preview](./public/Redux_Toolkit_App.png)
+*(A fully responsive dashboard managing Cakes, Ice Creams, and Async Users)*
 
 ---
 
@@ -95,7 +95,14 @@ Using `rejectWithValue` to pass custom error messages (strings) to the reducer i
     ```bash
     npm run dev
     ```
-    _(The app will launch on `http://localhost:3010`)_
+    *(The app will launch on `http://localhost:3010`)*
+
+---
+
+## 👨‍💻 Author
+
+**Hossam**
+- GitHub: [@HossamGezo](https://github.com/HossamGezo)
 
 ---
 
