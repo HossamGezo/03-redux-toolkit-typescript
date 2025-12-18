@@ -2,7 +2,7 @@
 
 > **Part 3** (The Finale) of the Redux Mastery Series.
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/6943ee4144f20e009a33d172/deploy-status)](https://app.netlify.com/sites/redux-toolkit-ts-demo/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/47fcdfe7-3d93-49c9-83d6-0bec01c6b427/deploy-status)](https://app.netlify.com/projects/redux-toolkit-ts-demo/deploys)
 &nbsp;
 [![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen)](https://redux-toolkit-ts-demo.netlify.app/)
 
