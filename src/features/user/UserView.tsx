@@ -16,8 +16,8 @@ const UserView = () => {
   // *** Return JSX
   return (
     <div className="user-view w-fit mx-auto">
-      <h1 className="user-header text-5xl text-center mb-10 bg-red-300 text-white py-3 rounded-md w-100 mx-auto">
-        Users
+      <h1 className="user-header text-5xl text-center mb-10 bg-red-300 text-white py-3 rounded-md w-100 mx-auto max-sm:max-w-90">
+        List Of Users
       </h1>
       <div className="user-view-wrapper">
         {/* Pending */}
@@ -28,7 +28,7 @@ const UserView = () => {
         )}
         {/* Fullfilled */}
         {!loading && error.length === 0 && (
-          <div className="users bg-[#333] p-2.5 rounded-sm flex flex-col gap-2.5">
+          <div className="users bg-[#333] p-2.5 rounded-sm flex flex-col gap-2.5 max-sm:max-w-90">
             {data.map((data) => (
               <div
                 key={data.id}
