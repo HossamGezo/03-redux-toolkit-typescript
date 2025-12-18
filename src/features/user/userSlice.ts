@@ -46,7 +46,7 @@ export const fetchUsers = createAsyncThunk<UserDataProps[]>(
   async (_, {rejectWithValue}) => {
     try {
       const response = await axios.get(
-        "https://jsonplaceholder.typicode.com/usrs"
+        "https://jsonplaceholder.typicode.com/users"
       );
       return response.data;
     } catch (error) {

@@ -1,6 +1,8 @@
 // - - - - - - - - - Libraries
 // *** Redux Toolkit
 import {configureStore} from "@reduxjs/toolkit";
+// *** Redux Logger
+import logger from "redux-logger";
 
 // - - - - - - - - - Redux Files
 // *** Redux Reducers
@@ -15,6 +17,7 @@ const store = configureStore({
     icecream: icecreamReducer,
     users: userReducer,
   },
+  middleware: (getDefaultMiddleware) => getDefaultMiddleware().concat(logger),
 });
 
 // - - - - - - - - - Store Types (TypeScript Integration)
